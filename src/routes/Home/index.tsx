@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import cx from 'classnames'
 
 import ProfileChart from './ProfileChart'
+import userData from '../../data/user_data.json'
 import styles from './home.module.scss'
 import { FrontArrowIcon, GoalIcon, TrainingIcon, HistoryIcon, UserIcon, SettingsIcon } from 'assets/svgs'
 
@@ -21,15 +22,16 @@ const Home = () => {
           <UserIcon className={styles.profileImage} />
         </div>
         <p className={styles.profileMessage}>
-          &quot; 글자수 제한 기능, 작성 날짜를 넣어주자.&quot;
+          &quot; {userData.message} &quot;
+          {/* &quot; 글자수 제한 기능, 작성 날짜를 넣어주자.&quot; */}
           {/* <span>2022-06-05</span> */}
         </p>
-        <p className={styles.profileName}>이우성</p>
+        <p className={styles.profileName}>{userData.name}</p>
         <dl className={styles.profileBodyInfo}>
           <dt>Height</dt>
-          <dd>178</dd>
+          <dd>{userData.height}</dd>
           <dt>Weight</dt>
-          <dd>88</dd>
+          <dd>{userData.weight}</dd>
         </dl>
       </section>
       <section className={styles.menuWrapper}>

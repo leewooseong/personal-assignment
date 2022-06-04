@@ -20,8 +20,6 @@ const ProfileChart = () => {
       { x: 1, y: achievedAngle, label: ' ' },
       { x: 2, y: 100 - achievedAngle, label: ' ' },
     ])
-
-    // return setChartData([{ x: 1, y: 0, label: ' ' }])
   }, [])
 
   return (
