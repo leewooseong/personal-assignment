@@ -1,2 +1,7 @@
 export { ReactComponent as GoBackIcon } from './back.svg'
+export { ReactComponent as FrontArrowIcon } from './front.svg'
 export { ReactComponent as UserIcon } from './user_image.svg'
+export { ReactComponent as GoalIcon } from './goal.svg'
+export { ReactComponent as TrainingIcon } from './training.svg'
+export { ReactComponent as HistoryIcon } from './history.svg'
+export { ReactComponent as SettingsIcon } from './settings.svg'

@@ -1,0 +1,215 @@
+@use 'src/styles/constants/colors';
+
+.homeWrapper {
+  .homeTitle {
+    margin: 10px 0 50px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+  padding: 40px 30px;
+}
+
+.profileWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 50px;
+
+  .profileImage {
+    width: 130px;
+    height: 130px;
+  }
+
+  .profileMessage {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2/4;
+    align-self: center;
+    justify-self: center;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: middle;
+    background-color: colors.$GRAYE;
+    border-radius: 20px;
+
+    span {
+      font-size: 10px;
+      text-align: right;
+    }
+  }
+
+  .profileName {
+    grid-column: 1/4;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 10px;
+  }
+
+  .profileBodyInfo {
+    display: flex;
+    grid-column: 1/4;
+    margin-left: 10px;
+    font-size: 15px;
+    color: colors.$GRAYA;
+
+    dt {
+      margin-right: 5px;
+    }
+
+    dd {
+      margin-right: 7px;
+    }
+  }
+}
+
+.menuWrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-self: stretch;
+  margin-top: 20px;
+  transition: all 1s;
+
+  li + li {
+    margin-top: 20px;
+  }
+
+  .goal,
+  .training,
+  .history {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 15px;
+    transition: all 0.2s;
+
+    svg {
+      box-sizing: content-box;
+      width: 24px;
+      height: 24px;
+      padding: 8px;
+      border-radius: 20px;
+    }
+
+    .menuName {
+      flex: 1;
+      margin-left: 30px;
+      color: colors.$GRAYA;
+      text-decoration: none;
+    }
+
+    .pageLinkBtn {
+      box-sizing: content-box;
+      width: 10px;
+      height: 10px;
+      padding: 12px;
+      margin-right: 5px;
+      background-color: colors.$GRAYE;
+      border-radius: 10px;
+    }
+  }
+
+  .goal {
+    svg {
+      background-color: colors.$GOAL_BG;
+      stroke: colors.$GOAL_THEME;
+    }
+
+    &:hover {
+      background-color: colors.$GOAL_BG;
+
+      svg {
+        background-color: colors.$WHITE;
+      }
+
+      .menuName {
+        color: colors.$BLACK;
+      }
+
+      .pageLinkBtn {
+        background-color: colors.$WHITE;
+      }
+    }
+  }
+
+  .training {
+    svg {
+      background-color: colors.$TRAINING_BG;
+      fill: colors.$TRAINING_THEME;
+    }
+
+    &:hover {
+      background-color: colors.$TRAINING_BG;
+
+      svg {
+        background-color: colors.$WHITE;
+      }
+
+      .menuName {
+        color: colors.$BLACK;
+      }
+
+      .pageLinkBtn {
+        background-color: colors.$WHITE;
+      }
+    }
+  }
+
+  .history {
+    svg {
+      background-color: colors.$HISTORY_BG;
+      fill: colors.$HISTORY_THEME;
+    }
+
+    &:hover {
+      background-color: colors.$HISTORY_BG;
+
+      svg {
+        background-color: colors.$WHITE;
+      }
+
+      .menuName {
+        color: colors.$HISTORY_THEME;
+      }
+
+      .pageLinkBtn {
+        background-color: colors.$WHITE;
+      }
+    }
+  }
+}
+
+.settingsBtn {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: colors.$GRAYA;
+  background-color: colors.$SETTINGS_BG;
+  border-radius: 10px;
+  transition: 0.2s;
+
+  svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    fill: colors.$SETTINGS_THEME;
+  }
+
+  &:hover {
+    color: colors.$BLACK;
+
+    svg {
+      fill: colors.$BLACK;
+    }
+  }
+}
