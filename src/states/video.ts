@@ -1,7 +1,7 @@
 import { atom } from 'recoil'
-import { IVideoList } from 'types/video'
+import { IVideoItem } from 'types/video'
 
-export const videoListState = atom<IVideoList[]>({
+export const videoListState = atom<IVideoItem[]>({
   key: '#movieListState',
   default: [],
 })
