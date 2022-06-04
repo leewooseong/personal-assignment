@@ -1,9 +1,20 @@
 .headerNavigation {
   display: flex;
-  //   padding: 20px;
-  margin-bottom: 20px;
+  align-items: center;
+  padding: 20px 25px 15px;
 
   .backBtn {
     flex: 1;
+  }
+
+  .userInfo {
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: 30px;
+      height: 30px;
+      margin-right: 7px;
+    }
   }
 }

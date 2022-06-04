@@ -1,0 +1,8 @@
+@use 'src/styles/constants/colors';
+
+.searchForm {
+  padding: 5px 15px;
+  margin: 0 20px 20px;
+  background-color: colors.$GRAYF1;
+  border-radius: 5px;
+}

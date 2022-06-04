@@ -28,7 +28,7 @@ const SearchBar = () => {
     setSearchWord(e.currentTarget.value)
   }
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className={styles.searchForm}>
       <input type='text' placeholder={PLACEHOLDER_VALUE} onChange={handleChange} />
     </form>
   )

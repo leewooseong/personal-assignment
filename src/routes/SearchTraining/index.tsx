@@ -1,14 +1,18 @@
 import styles from './searchTraining.module.scss'
 import LNB from 'routes/shared/LNB'
 import SearchBar from './SearchBar/index'
+import VideoList from './VideoList'
 
 const SearchTraining = () => (
   <div>
-    <header>
+    <header className={styles.searchHeader}>
       <LNB />
       <SearchBar />
     </header>
-    <main>search Page</main>
+    <main className={styles.searchMain}>
+      search Page
+      <VideoList />
+    </main>
   </div>
 )
 
