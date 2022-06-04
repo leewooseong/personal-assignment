@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import cx from 'classnames'
 
+import ProfileChart from './ProfileChart'
 import styles from './home.module.scss'
 import { FrontArrowIcon, GoalIcon, TrainingIcon, HistoryIcon, UserIcon, SettingsIcon } from 'assets/svgs'
 
@@ -15,7 +16,10 @@ const Home = () => {
     <main className={styles.homeWrapper}>
       <h1 className={styles.homeTitle}>Home</h1>
       <section className={styles.profileWrapper}>
-        <UserIcon className={styles.profileImage} />
+        <div className={styles.profileImageWrapper}>
+          <ProfileChart />
+          <UserIcon className={styles.profileImage} />
+        </div>
         <p className={styles.profileMessage}>
           &quot; 글자수 제한 기능, 작성 날짜를 넣어주자.&quot;
           {/* <span>2022-06-05</span> */}
