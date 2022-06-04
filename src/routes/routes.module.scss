@@ -1,0 +1,26 @@
+@use 'src/styles/constants/colors';
+
+.appWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: colors.$BG_COLOR;
+}
+
+.app {
+  position: relative;
+  box-sizing: border-box;
+  width: 360px;
+  height: 800px;
+  padding: 20px;
+  background-color: colors.$WHITE;
+  box-shadow: colors.$SHADOW 30px 30px 50px 30px;
+  transition: 300ms background-color;
+}
+
+.scrollArea {
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
