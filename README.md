@@ -46,118 +46,104 @@
 <details>
 <summary>펼치기</summary>
 
-📦과제6_개인과제
- ┣ 📂public
- ┃ ┣ 📜favicon.ico
- ┃ ┣ 📜index.html
- ┃ ┣ 📜logo192.png
- ┃ ┣ 📜logo512.png
- ┃ ┣ 📜manifest.json
- ┃ ┣ 📜robots.txt
- ┃ ┗ 📜_redirects
- ┣ 📂src
- ┃ ┣ 📂assets
- ┃ ┃ ┗ 📂svgs
- ┃ ┃ ┃ ┣ 📜back.svg
- ┃ ┃ ┃ ┣ 📜front.svg
- ┃ ┃ ┃ ┣ 📜goal.svg
- ┃ ┃ ┃ ┣ 📜history.svg
- ┃ ┃ ┃ ┣ 📜index.ts
- ┃ ┃ ┃ ┣ 📜settings.svg
- ┃ ┃ ┃ ┣ 📜training.svg
- ┃ ┃ ┃ ┗ 📜user_image.svg
- ┃ ┣ 📂data
- ┃ ┃ ┗ 📜user_data.json
- ┃ ┣ 📂hooks
- ┃ ┃ ┗ 📂worker
- ┃ ┃ ┃ ┣ 📜index.ts
- ┃ ┃ ┃ ┣ 📜useAxios.ts
- ┃ ┃ ┃ ┗ 📜useAxiosCore.ts
- ┃ ┣ 📂routes
- ┃ ┃ ┣ 📂Home
- ┃ ┃ ┃ ┣ 📜home.module.scss
- ┃ ┃ ┃ ┣ 📜index.tsx
- ┃ ┃ ┃ ┗ 📜ProfileChart.tsx
- ┃ ┃ ┣ 📂SearchTraining
- ┃ ┃ ┃ ┣ 📂SearchBar
- ┃ ┃ ┃ ┃ ┣ 📜index.tsx
- ┃ ┃ ┃ ┃ ┗ 📜searchBar.module.scss
- ┃ ┃ ┃ ┣ 📂VideoItem
- ┃ ┃ ┃ ┃ ┣ 📜index.tsx
- ┃ ┃ ┃ ┃ ┗ 📜videoItem.module.scss
- ┃ ┃ ┃ ┣ 📂VideoList
- ┃ ┃ ┃ ┃ ┣ 📜index.tsx
- ┃ ┃ ┃ ┃ ┗ 📜videoList.module.scss
- ┃ ┃ ┃ ┣ 📜index.tsx
- ┃ ┃ ┃ ┗ 📜searchTraining.module.scss
- ┃ ┃ ┣ 📂shared
- ┃ ┃ ┃ ┗ 📂LNB
- ┃ ┃ ┃ ┃ ┣ 📜index.tsx
- ┃ ┃ ┃ ┃ ┗ 📜LNB.module.scss
- ┃ ┃ ┣ 📂VideoDetail
- ┃ ┃ ┃ ┣ 📜index.tsx
- ┃ ┃ ┃ ┗ 📜videoDetail.module.scss
- ┃ ┃ ┣ 📜index.tsx
- ┃ ┃ ┗ 📜routes.module.scss
- ┃ ┣ 📂services
- ┃ ┃ ┗ 📜youtube-axios.ts
- ┃ ┣ 📂states
- ┃ ┃ ┗ 📜video.ts
- ┃ ┣ 📂styles
- ┃ ┃ ┣ 📂base
- ┃ ┃ ┃ ┣ 📜_fonts.scss
- ┃ ┃ ┃ ┣ 📜_more.scss
- ┃ ┃ ┃ ┗ 📜_reset.scss
- ┃ ┃ ┣ 📂constants
- ┃ ┃ ┃ ┣ 📜_colors.scss
- ┃ ┃ ┃ ┣ 📜_levels.scss
- ┃ ┃ ┃ ┗ 📜_sizes.scss
- ┃ ┃ ┣ 📂mixins
- ┃ ┃ ┃ ┣ 📜_animation.scss
- ┃ ┃ ┃ ┣ 📜_flexbox.scss
- ┃ ┃ ┃ ┣ 📜_position.scss
- ┃ ┃ ┃ ┣ 📜_responsive.scss
- ┃ ┃ ┃ ┣ 📜_typography.scss
- ┃ ┃ ┃ ┗ 📜_visual.scss
- ┃ ┃ ┣ 📜index.js
- ┃ ┃ ┗ 📜index.scss
- ┃ ┣ 📂types
- ┃ ┃ ┣ 📜todo.d.ts
- ┃ ┃ ┗ 📜video.d.ts
- ┃ ┣ 📂utils
- ┃ ┃ ┗ 📜axios.ts
- ┃ ┣ 📜index.tsx
- ┃ ┣ 📜logo.svg
- ┃ ┣ 📜react-app-env.d.ts
- ┃ ┣ 📜reportWebVitals.ts
- ┃ ┗ 📜setupTests.ts
- ┣ 📜.env
- ┣ 📜.eslintignore
- ┣ 📜.eslintrc.json
- ┣ 📜.gitignore
- ┣ 📜.prettierignore
- ┣ 📜.prettierrc.yml
- ┣ 📜.stylelintrc.json
- ┣ 📜package-lock.json
- ┣ 📜package.json
- ┣ 📜README.md
+📦과제6_개인과제<br>
+ ┣ 📂public<br>
+ ┃ ┣ 📜favicon.ico<br>
+ ┃ ┣ 📜index.html<br>
+ ┃ ┣ 📜logo192.png<br>
+ ┃ ┣ 📜logo512.png<br>
+ ┃ ┣ 📜manifest.json<br>
+ ┃ ┣ 📜robots.txt<br>
+ ┃ ┗ 📜_redirects<br>
+ ┣ 📂src<br>
+ ┃ ┣ 📂assets<br>
+ ┃ ┃ ┗ 📂svgs<br>
+ ┃ ┃ ┃ ┣ 📜back.svg<br>
+ ┃ ┃ ┃ ┣ 📜front.svg<br>
+ ┃ ┃ ┃ ┣ 📜goal.svg<br>
+ ┃ ┃ ┃ ┣ 📜history.svg<br>
+ ┃ ┃ ┃ ┣ 📜index.ts<br>
+ ┃ ┃ ┃ ┣ 📜settings.svg<br>
+ ┃ ┃ ┃ ┣ 📜training.svg<br>
+ ┃ ┃ ┃ ┗ 📜user_image.svg<br>
+ ┃ ┣ 📂data<br>
+ ┃ ┃ ┗ 📜user_data.json<br>
+ ┃ ┣ 📂hooks<br>
+ ┃ ┃ ┗ 📂worker<br>
+ ┃ ┃ ┃ ┣ 📜index.ts<br>
+ ┃ ┃ ┃ ┣ 📜useAxios.ts<br>
+ ┃ ┃ ┃ ┗ 📜useAxiosCore.ts<br>
+ ┃ ┣ 📂routes<br>
+ ┃ ┃ ┣ 📂Home<br>
+ ┃ ┃ ┃ ┣ 📜home.module.scss<br>
+ ┃ ┃ ┃ ┣ 📜index.tsx<br>
+ ┃ ┃ ┃ ┗ 📜ProfileChart.tsx<br>
+ ┃ ┃ ┣ 📂SearchTraining<br>
+ ┃ ┃ ┃ ┣ 📂SearchBar<br>
+ ┃ ┃ ┃ ┃ ┣ 📜index.tsx<br>
+ ┃ ┃ ┃ ┃ ┗ 📜searchBar.module.scss<br>
+ ┃ ┃ ┃ ┣ 📂VideoItem<br>
+ ┃ ┃ ┃ ┃ ┣ 📜index.tsx<br>
+ ┃ ┃ ┃ ┃ ┗ 📜videoItem.module.scss<br>
+ ┃ ┃ ┃ ┣ 📂VideoList<br>
+ ┃ ┃ ┃ ┃ ┣ 📜index.tsx<br>
+ ┃ ┃ ┃ ┃ ┗ 📜videoList.module.scss<br>
+ ┃ ┃ ┃ ┣ 📜index.tsx<br>
+ ┃ ┃ ┃ ┗ 📜searchTraining.module.scss<br>
+ ┃ ┃ ┣ 📂shared<br>
+ ┃ ┃ ┃ ┗ 📂LNB<br>
+ ┃ ┃ ┃ ┃ ┣ 📜index.tsx<br>
+ ┃ ┃ ┃ ┃ ┗ 📜LNB.module.scss<br>
+ ┃ ┃ ┣ 📂VideoDetail<br>
+ ┃ ┃ ┃ ┣ 📜index.tsx<br>
+ ┃ ┃ ┃ ┗ 📜videoDetail.module.scss<br>
+ ┃ ┃ ┣ 📜index.tsx<br>
+ ┃ ┃ ┗ 📜routes.module.scss<br>
+ ┃ ┣ 📂services<br>
+ ┃ ┃ ┗ 📜youtube-axios.ts<br>
+ ┃ ┣ 📂states<br>
+ ┃ ┃ ┗ 📜video.ts<br>
+ ┃ ┣ 📂styles<br>
+ ┃ ┃ ┣ 📂base<br>
+ ┃ ┃ ┃ ┣ 📜_fonts.scss<br>
+ ┃ ┃ ┃ ┣ 📜_more.scss<br>
+ ┃ ┃ ┃ ┗ 📜_reset.scss<br>
+ ┃ ┃ ┣ 📂constants<br>
+ ┃ ┃ ┃ ┣ 📜_colors.scss<br>
+ ┃ ┃ ┃ ┣ 📜_levels.scss<br>
+ ┃ ┃ ┃ ┗ 📜_sizes.scss<br>
+ ┃ ┃ ┣ 📂mixins<br>
+ ┃ ┃ ┃ ┣ 📜_animation.scss<br>
+ ┃ ┃ ┃ ┣ 📜_flexbox.scss<br>
+ ┃ ┃ ┃ ┣ 📜_position.scss<br>
+ ┃ ┃ ┃ ┣ 📜_responsive.scss<br>
+ ┃ ┃ ┃ ┣ 📜_typography.scss<br>
+ ┃ ┃ ┃ ┗ 📜_visual.scss<br>
+ ┃ ┃ ┣ 📜index.js<br>
+ ┃ ┃ ┗ 📜index.scss<br>
+ ┃ ┣ 📂types<br>
+ ┃ ┃ ┣ 📜todo.d.ts<br>
+ ┃ ┃ ┗ 📜video.d.ts<br>
+ ┃ ┣ 📂utils<br>
+ ┃ ┃ ┗ 📜axios.ts<br>
+ ┃ ┣ 📜index.tsx<br>
+ ┃ ┣ 📜logo.svg<br>
+ ┃ ┣ 📜react-app-env.d.ts<br>
+ ┃ ┣ 📜reportWebVitals.ts<br>
+ ┃ ┗ 📜setupTests.ts<br>
+ ┣ 📜.env<br>
+ ┣ 📜.eslintignore<br>
+ ┣ 📜.eslintrc.json<br>
+ ┣ 📜.gitignore<br>
+ ┣ 📜.prettierignore<br>
+ ┣ 📜.prettierrc.yml<br>
+ ┣ 📜.stylelintrc.json<br>
+ ┣ 📜package-lock.json<br>
+ ┣ 📜package.json<br>
+ ┣ 📜README.md<br>
  ┣ 📜tsconfig.json
- ┗ 📜yarn.lock
-
-
+ ┗ 📜yarn.lock<br>
 </details>
-
-<br />
-
-# 기술 스택
-
-<div align="center">
-<img src="[https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white)"/>
-<img src="[https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white)"/>
-<img src="[https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=Sass&logoColor=white)"/>
-<img src="[https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white)"/>
-<img src="[https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white)"/>
-<img src="[https://img.shields.io/badge/Recoil-764ABC?style=flat-square&logo=Recoil&logoColor=white](https://img.shields.io/badge/Recoil-764ABC?style=flat-square&logo=Recoil&logoColor=white)"/>
 
 <br />
 
@@ -167,7 +153,6 @@
 | victory | 차트 라이브러리 | 36.4.0 |
 
 <br />
-</div>
 
 <br />
 
@@ -185,10 +170,23 @@
 
 - 기능 미구현
 
+ <img src="https://user-images.githubusercontent.com/42796944/172039339-d138128f-391f-46ee-98f7-533a58c3dbfe.png" style="display: inline-block; width:200px;"> 
+
+<br />
+
+
 ### Training 페이지
 
 - 유튜브 api를 이용하여 운동 검색 
 - 특정 동영상 시청 가능
+
+<p algin="center" style="text-align: center;">
+ <img src="https://user-images.githubusercontent.com/42796944/172039325-ca19506b-87a5-4da3-ba7c-dd49074c89f7.png" style="display: inline-block; width:200px;"> 
+ <img src="https://user-images.githubusercontent.com/42796944/172039334-2208e310-aa7e-4080-bcea-dd21a7894365.png" style="display: inline-block; width: 200px;">
+</p>
+
+
+
 
 ### History 페이지
 
