@@ -1,9 +1,14 @@
+@use 'src/styles/constants/colors';
+
 .searchHeader {
   position: absolute;
   z-index: 10;
   width: 100%;
+  background-color: colors.$WHITE;
 }
 
 .searchMain {
-  padding: 123px 20px 20px;
+  height: 800px;
+  padding: 0 20px 20px;
+  overflow: scroll;
 }

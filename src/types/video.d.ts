@@ -28,7 +28,10 @@ interface ISnippet {
 interface IVideoItem {
   kind: string
   etag: string
-  id: string
+  id: {
+    kind: string
+    videoId: string
+  }
   snippet: ISnippet
 }
 

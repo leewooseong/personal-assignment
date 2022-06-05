@@ -11,7 +11,6 @@ const SearchTraining = () => {
         <SearchBar />
       </header>
       <main className={styles.searchMain}>
-        search Page
         <VideoList />
       </main>
     </div>

@@ -1,11 +1,14 @@
 import styles from './LNB.module.scss'
 import { GoBackIcon, UserIcon } from 'assets/svgs'
+import { Link } from 'react-router-dom'
 
 const LNB = () => (
   <nav>
     <ul className={styles.headerNavigation}>
       <li className={styles.backBtn}>
-        <GoBackIcon />
+        <Link to='/'>
+          <GoBackIcon />
+        </Link>
       </li>
       <li className={styles.userInfo}>
         <UserIcon />

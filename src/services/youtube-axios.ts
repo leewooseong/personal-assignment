@@ -12,7 +12,7 @@ export const getYoutubeSearchApi = (params: Params) => {
     params: {
       part: 'snippet',
       key: process.env.REACT_APP_YOUTUBE_API_KEY,
-      maxResults: 2,
+      maxResults: 8,
       q: params.query,
       type: 'video',
     },
