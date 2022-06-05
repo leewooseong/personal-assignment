@@ -32,7 +32,6 @@ const VideoList = () => {
   return (
     <ul className={styles.videoList}>
       {videoList.map((video, index) => (
-        // <li key={video.id.videoId}>{video.snippet.title}</li>
         <VideoItem key={video.id.videoId} video={video} />
       ))}
     </ul>
