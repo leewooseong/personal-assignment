@@ -13,16 +13,12 @@
     width: 100%;
     min-height: 200px;
     overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 1px 4px -1px #00000087;
     transition: transform 250ms ease-in;
 
     .thumbnail {
       width: 100%;
       min-height: 130px;
       max-height: 130px;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
     }
 
     .metaData {

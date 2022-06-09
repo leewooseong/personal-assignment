@@ -7,9 +7,9 @@ import styles from './home.module.scss'
 import { FrontArrowIcon, GoalIcon, TrainingIcon, HistoryIcon, UserIcon, SettingsIcon } from 'assets/svgs'
 
 const MENULIST = [
-  { name: 'Goals', icon: <GoalIcon fill='red' />, pageLink: '/goals' },
-  { name: 'Trainings', icon: <TrainingIcon />, pageLink: '/trainings' },
-  { name: 'History', icon: <HistoryIcon />, pageLink: '/history' },
+  { name: 'Goals', icon: <GoalIcon fill='red' />, pageLink: '/detail/goals' },
+  { name: 'Trainings', icon: <TrainingIcon />, pageLink: '/detail/trainings' },
+  { name: 'History', icon: <HistoryIcon />, pageLink: '/detail/history' },
 ]
 
 const Home = () => {
@@ -37,7 +37,6 @@ const Home = () => {
       <section className={styles.menuWrapper}>
         <ul>
           {MENULIST.map((menu, index) => {
-            console.log(menu)
             return (
               <li key={`menu-${index}`}>
                 <Link

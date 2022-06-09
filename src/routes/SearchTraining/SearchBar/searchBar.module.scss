@@ -1,12 +1,17 @@
 @use 'src/styles/constants/colors';
 
 .searchForm {
-  padding: 5px 15px;
-  margin: 0 20px 20px;
-  background-color: colors.$GRAYF1;
-  border-radius: 5px;
+  position: absolute;
+  top: 85px;
+  z-index: 10;
+  box-sizing: border-box;
+  width: calc(100%);
+  padding: 0 20px 20px;
+  background-color: colors.$WHITE;
 
   input {
     width: 100%;
+    padding: 5px 15px;
+    background-color: colors.$GRAYF1;
   }
 }

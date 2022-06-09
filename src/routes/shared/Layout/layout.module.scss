@@ -1,0 +1,8 @@
+@use 'src/styles/constants/colors';
+
+.layoutHeader {
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+  background-color: colors.$WHITE;
+}
