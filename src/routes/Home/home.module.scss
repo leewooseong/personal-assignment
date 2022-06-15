@@ -113,7 +113,7 @@
       width: 24px;
       height: 24px;
       padding: 8px;
-      border-radius: 20px;
+      border-radius: 11px;
     }
 
     .menuName {
@@ -130,14 +130,14 @@
       padding: 12px;
       margin-right: 5px;
       background-color: colors.$GRAYE;
-      border-radius: 10px;
+      border-radius: 14px;
     }
   }
 
   .goal {
     svg {
       background-color: colors.$GOAL_BG;
-      stroke: colors.$GOAL_THEME;
+      fill: colors.$GOAL_THEME;
     }
 
     &:hover {
@@ -194,7 +194,7 @@
       }
 
       .menuName {
-        color: colors.$HISTORY_THEME;
+        color: colors.$BLACK;
       }
 
       .pageLinkBtn {
