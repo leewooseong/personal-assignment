@@ -4,7 +4,10 @@ import styles from './videoDetail.module.scss'
 
 const VideoDetail = () => {
   const video = useRecoilValue(selectedVideo)
-  console.log(video)
+
+  if (!video?.id) {
+    return null
+  }
 
   return (
     <section>

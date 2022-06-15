@@ -19,15 +19,13 @@ const VideoItem = ({ video, video: { snippet } }: IProps) => {
 
   return (
     <li className={styles.videoItemWrapper}>
-      <button className={styles.videoItem} type='button' onClick={handleClickVideo}>
-        <Link to='/detail/videoDetail'>
-          <img className={styles.thumbnail} src={snippet.thumbnails.medium.url} alt='video thumbnail' />
-          <div className={styles.metaData}>
-            <p className={styles.title}>{snippet.title}</p>
-            <p className={styles.channel}>{snippet.channelTitle}</p>
-          </div>
-        </Link>
-      </button>
+      <Link to='/detail/videoDetail' onClick={handleClickVideo} className={styles.videoItem}>
+        <img className={styles.thumbnail} src={snippet.thumbnails.medium.url} alt='video thumbnail' />
+        <div className={styles.metaData}>
+          <p className={styles.title}>{snippet.title}</p>
+          <p className={styles.channel}>{snippet.channelTitle}</p>
+        </div>
+      </Link>
     </li>
   )
 }

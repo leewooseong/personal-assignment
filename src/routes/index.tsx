@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './Home'
 import styles from './routes.module.scss'
 import Layout from './shared/Layout'
-import SearchTraining from './SearchTraining'
+import Trainings from './Trainings'
 import VideoDetail from './VideoDetail'
 import Goals from './Goals'
 import NotFound from './NotFound/index'
@@ -15,7 +15,7 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/detail' element={<Layout />}>
             <Route path='goals' element={<Goals />} />
-            <Route path='trainings' element={<SearchTraining />} />
+            <Route path='trainings' element={<Trainings />} />
             <Route path='videoDetail' element={<VideoDetail />} />
             <Route path='*' element={<NotFound />} />
           </Route>
