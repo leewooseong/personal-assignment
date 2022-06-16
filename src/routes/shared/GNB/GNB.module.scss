@@ -17,7 +17,7 @@
       align-items: center;
       justify-content: center;
       font-size: 11px;
-      color: colors.$BLACK;
+      color: colors.$GRAYA;
       text-decoration: none;
 
       svg {
@@ -25,6 +25,41 @@
         width: 20px;
         height: 20px;
         margin-bottom: 5px;
+        fill: colors.$GRAYA;
+      }
+    }
+
+    .gnbItem.active {
+      font-size: 12px;
+      font-weight: bold;
+
+      svg {
+        width: 22px;
+        height: 22px;
+      }
+    }
+
+    .gnbItem.goals {
+      color: colors.$GOAL_THEME;
+
+      svg {
+        fill: colors.$GOAL_THEME;
+      }
+    }
+
+    .gnbItem.trainings {
+      color: colors.$TRAINING_THEME;
+
+      svg {
+        fill: colors.$TRAINING_THEME;
+      }
+    }
+
+    .gnbItem.history {
+      color: colors.$HISTORY_THEME;
+
+      svg {
+        fill: colors.$HISTORY_THEME;
       }
     }
   }
