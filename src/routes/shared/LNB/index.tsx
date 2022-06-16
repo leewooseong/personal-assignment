@@ -8,6 +8,7 @@ const LNB = () => {
   const handleBackBtnClick = () => {
     navigate(-1)
   }
+
   return (
     <nav>
       <ul className={styles.headerNavigation}>
