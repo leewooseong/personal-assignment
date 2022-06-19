@@ -13,13 +13,11 @@ const GNB_LIST = [
 
 const findPageName = (location: Location, ButtonName: string) => {
   const locationPageName = location.pathname.split('/').pop()
-
   return locationPageName === ButtonName.toLowerCase()
 }
 
 const GNB = () => {
   const location = useLocation()
-  const menuNameExample = 'hihi'
 
   return (
     <nav className={styles.gnbWrapper}>

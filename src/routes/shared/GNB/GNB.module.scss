@@ -4,7 +4,7 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 10px;
+  padding: 10px 10px 20px;
   background-color: colors.$WHITE;
 
   .gnbList {
@@ -25,13 +25,17 @@
         width: 20px;
         height: 20px;
         margin-bottom: 5px;
+      }
+
+      svg * {
         fill: colors.$GRAYA;
       }
     }
 
     .gnbItem.active {
-      font-size: 12px;
       font-weight: bold;
+      transition: 0.2s;
+      transform: scale(1.2);
 
       svg {
         width: 22px;
@@ -42,7 +46,7 @@
     .gnbItem.goals {
       color: colors.$GOAL_THEME;
 
-      svg {
+      svg * {
         fill: colors.$GOAL_THEME;
       }
     }
@@ -50,7 +54,7 @@
     .gnbItem.trainings {
       color: colors.$TRAINING_THEME;
 
-      svg {
+      svg * {
         fill: colors.$TRAINING_THEME;
       }
     }
@@ -58,7 +62,7 @@
     .gnbItem.history {
       color: colors.$HISTORY_THEME;
 
-      svg {
+      svg * {
         fill: colors.$HISTORY_THEME;
       }
     }

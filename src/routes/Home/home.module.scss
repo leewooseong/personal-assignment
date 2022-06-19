@@ -29,7 +29,6 @@
     .chart {
       position: absolute;
       z-index: 10;
-      //   transition: 1s;
     }
 
     .profileImage {
@@ -90,7 +89,6 @@
   flex-direction: column;
   align-self: stretch;
   margin-top: 20px;
-  transition: all 1s;
 
   li + li {
     margin-top: 20px;
@@ -102,7 +100,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 7px;
+    padding: 10px;
     font-size: 18px;
     font-weight: 500;
     border-radius: 15px;
@@ -110,9 +108,9 @@
 
     svg {
       box-sizing: content-box;
-      width: 24px;
-      height: 24px;
-      padding: 8px;
+      width: 28px;
+      height: 28px;
+      padding: 10px;
       border-radius: 11px;
     }
 
@@ -125,19 +123,26 @@
 
     .pageLinkBtn {
       box-sizing: content-box;
-      width: 10px;
-      height: 10px;
-      padding: 12px;
-      margin-right: 5px;
+      width: 12px;
+      height: 12px;
+      padding: 14px;
       background-color: colors.$GRAYE;
+      border: none;
       border-radius: 14px;
     }
   }
 
   .goal {
     svg {
-      background-color: colors.$GOAL_BG;
+      border: 2px solid colors.$GOAL_BG;
+    }
+
+    svg * {
       fill: colors.$GOAL_THEME;
+    }
+
+    .pageLinkBtn * {
+      fill: colors.$BLACK;
     }
 
     &:hover {
@@ -159,8 +164,15 @@
 
   .training {
     svg {
-      background-color: colors.$TRAINING_BG;
+      border: 2px solid colors.$TRAINING_BG;
+    }
+
+    svg * {
       fill: colors.$TRAINING_THEME;
+    }
+
+    .pageLinkBtn * {
+      fill: colors.$BLACK;
     }
 
     &:hover {
@@ -182,8 +194,15 @@
 
   .history {
     svg {
-      background-color: colors.$HISTORY_BG;
+      border: 2px solid colors.$HISTORY_BG;
+    }
+
+    svg * {
       fill: colors.$HISTORY_THEME;
+    }
+
+    .pageLinkBtn * {
+      fill: colors.$BLACK;
     }
 
     &:hover {
